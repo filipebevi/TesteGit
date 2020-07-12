@@ -9,7 +9,7 @@ public class CalculatorTeste {
     @Test
     public void TestarSoma(){
         Calculator c = new Calculator();
-        double soma = 1+2;
+        double soma = c.somar(1, 2);
         assertEquals(3, soma, 0.01);
     }
 }
